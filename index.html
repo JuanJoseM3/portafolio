@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav id="nav-bar">
+            <img class="logo" src="images/logo.jfif" alt="">
+            <button id="btn-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                  </svg>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Sobre Mi</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Clientes</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Desarrollo Web Responsive</h1>
+            <div>
+                <p class="ubica"><img src="images/map.png" alt=""> COLOMBIA</p>
+                <p class="ubica"><img src="images/mail.png" alt=""> juanjosemosg@gmail.com</p>
+            </div>       
+        </div>
+    </div>
+
+    <div class="container shadow">
+        <h2>Habilidades y Servicios</h2>
+        <main class="skills">
+                <div class="service">
+                    <h3>FrontEnd</h3>
+                    <div class="icons">
+                        <img src="images/html.png" alt="">
+                        <img src="images/css.png" alt="">
+                    </div>
+                    <p>Manejo de HTML y CSS para la estructuración y visualización de páginas web, según las necesidades y preferencias del cliente.
+                </div>
+                
+                <div class="service">
+                    <h3>BackEnd</h3>
+                    <div class="icons">
+                        <img src="images/js.png" alt="">
+                        <img src="images/python.png" alt="">
+                    </div>
+                    <p>Desarrollo de funciones, lógica páginas web y conexiones de bases de datos a través de Javascript y Python.
+                </div>
+
+                <div class="service">
+                    <h3>Desarrollo Apps móvil</h3>
+                    <div class="icons">
+                        <img src="images/android.png" alt="">
+                        <img src="images/apple.png" alt="">
+                    </div>
+                    <p>Diseño, arquitectura y desarrollo de aplicaciones móviles para diferentes plataformas.
+                </div>
+        </main>
+
+        <div>
+            <h2>Contacto</h2>
+            <form class="form" action="#" method="POST">
+                <legend>Diligencia la información de contacto</legend>
+
+                <div class="labels-container">
+                    <div class="field">
+                        <label>Nombre</label>
+
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="field">
+                        <label>Teléfono</label>
+
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="field">
+                        <label>Correo</label>
+
+                        <input type="mail" name="correo" placeholder="Mail">
+                    </div>
+                    <div class="field">
+                        <label>Mensaje:</label>
+
+                        <textarea placeholder="Comentarios"></textarea>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Juan Jose Freelancer 2021</p>
+    </footer>
+
+    <script src="main.js"></script> 
+</body>
+</html>
